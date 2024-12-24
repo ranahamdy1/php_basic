@@ -1,4 +1,4 @@
-# General Notes
+### General Notes
 
 1. To open Local Server
    ```bash
