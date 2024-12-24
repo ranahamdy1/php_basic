@@ -162,6 +162,8 @@ $squaredNumbers = array_map(function ($number) {
 print_r($squaredNumbers);
 
 // Lambda Function
+//هي دالة مجهولة (Anonymous Function) يتم تعريفها بدون اسم.
+
 $sayHello = function ($name) {
     return "Hello, $name!";
 };
