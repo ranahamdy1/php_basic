@@ -1,5 +1,4 @@
 <?php
-// Basic PHP script
 echo "<h1>hello world</h1>";
 
 $var = 10;
@@ -23,6 +22,24 @@ if ($score >= 90) {
 } else {
     echo "Grade: F";
 }
+
+//for each
+$fruits = ["Apple", "Banana", "Orange"];
+
+foreach ($fruits as $fruit) {
+    echo "<p>Fruits: $fruit</p>";
+}
+
+$people = [
+    ["name" => "Alice", "age" => 25],
+    ["name" => "Bob", "age" => 30],
+    ["name" => "Charlie", "age" => 35]
+];
+
+foreach ($people as $person) {
+    echo "Name: " . $person["name"] . ", Age: " . $person["age"] . "<br>";
+}
+
 
 // Ternary Operator
 $age = 18;
@@ -150,4 +167,3 @@ $sayHello = function ($name) {
 };
 echo $sayHello("Ahmed");
 ?>
-
